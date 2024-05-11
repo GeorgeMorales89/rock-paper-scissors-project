@@ -41,7 +41,7 @@ function determineWinner(userChoice, computerChoice) {
             return "You won!"
         }
     } else if (userChoice === "bomb") {
-        return "Your the bomb! You won!";
+        return "You're the bomb! You won!";
     }
 }
 
@@ -51,7 +51,6 @@ function playGame() {
 
     console.log("You threw: " + userChoice);
     console.log("The computer threw: " + computerChoice);
-
     console.log(determineWinner(userChoice, computerChoice));
 }
 
